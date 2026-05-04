@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pettit Animal Center</title>
+
+    <!-- PWA básico -->
+    <link rel="manifest" href="./manifest.json">
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <div class="form-container">
+        <label>Nombre del dueño</label>
+        <input type="text" id="dueno">
+
+        <label>Nombre de la mascota</label>
+        <input type="text" id="mascota">
+
+        <label>Medicamentos / Instrucciones</label>
+        <textarea id="nota" rows="8"></textarea>
+
+        <button onclick="imprimir()">Imprimir</button>
+        <button onclick="descargarPDF()">Guardar PDF</button>
+    </div>
+
+    <div class="print-area">
+        <div id="fecha_print" class="fecha-impresion"></div>
+        <input type="text" id="dueno_print">
+        <input type="text" id="mascota_print">
+        <textarea id="nota_print"></textarea>
+    </div>
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>

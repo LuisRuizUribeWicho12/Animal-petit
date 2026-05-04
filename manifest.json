@@ -1,0 +1,6 @@
+{
+  "name": "Animal Center",
+  "short_name": "FormMascota",
+  "start_url": ".",
+  "display": "standalone"
+}
