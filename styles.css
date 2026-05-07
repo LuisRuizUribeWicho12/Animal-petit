@@ -3,6 +3,9 @@
      margin: 0;
      padding: 20px;
  }
+.oculto {
+    display: none;
+}
 
  input,
  textarea {
